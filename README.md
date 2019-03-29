@@ -37,20 +37,22 @@ npm run start
 ```
 
 ## Deploy on Zeit
-If you are familiar with Zeit, you have already noticed the ***.nowignore*** file.
+If you are familiar with [Zeit](zeit.co), you have already noticed the ***.nowignore*** file.
 It's basically the ***.gitignore*** used by Zeit's serverless platform.
 On my [article](https://medium.com/p/e06c898b5765) you can find more details about it.
 For a quick deploy on Zeit, you must add your CMC's API key as a secret
 ```
 now secrets add cmc_api_key "YOUR_CMC_API_KEY_GOES_HERE_ALICE"
 ```
-and then type in your terminal
+and then to deploy it type in your terminal
 ```
 now
 ```
+the console output will provide you the url of the proxy. You can change it directly from Zeit's dashboard.
 
 ## Can I deploy it on another platform?
 Sure. You can deploy it on Lambda, on Azure Functions, on Heroku or on your favourite service as long as it can run NodeJS.
+
 In this case, you have to replace the **.env.sample** file with **.env** file and replace the content with your CMC's API.
 
 ## Contribute
