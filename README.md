@@ -7,6 +7,7 @@ Starting with the last version of CoinMarketCap (CMC) APIs released early 2019, 
 Choices are:
 - integrating the API in your backend
 - create a proxy if you are using a JAM stack app or similar
+
 I dive more into this in my article "[Why I've built a Coinmarketcap proxy](https://medium.com/p/e06c898b5765)", feel free to comment and please point out errors if you find any. I'm a bit rusty :)
 
 ## Tech used
